@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#screen{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(209, 101, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    height: 75vh;
+    width: 75vw;
+    background-color: white;
+    border-radius: 10px;
+}
