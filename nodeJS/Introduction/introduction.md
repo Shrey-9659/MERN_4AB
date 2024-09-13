@@ -17,6 +17,5 @@ Once the node is downloaded, you can go to terminal and type in :
 node -v //to check the version of your node
 npm -v //to check the version of npm in your system
 node   //This will create a Node REPL in your terminal where you can do basic JS programming
-
-
+```
 
