@@ -78,7 +78,7 @@
 // Axios
 // XMLHttpRequest
 
-// To handle that result which we will receive from the async code 
+// To handle that result which we will receive from the async code
 // callbacks
 // .then .catch
 // try catch
@@ -121,3 +121,27 @@
 // P3.then(()=>{
 //     console.log("Task 3 completed")
 // })
+
+// -----------------------------------------------------------------------------------------------------------------------
+
+// Promise.all --> When all the Promises are resolved, in that case we will run one .then function which is going is going to handle the data accordingly
+// user
+// posts
+// comments
+
+// Promise.allSettled --> It is going to give me the details of all the promises weather it has been resolved, or it has been rejected
+// [{
+//     status : "resolve || reject",
+//     value : "data"
+// },{
+//     status : "resolve || reject",
+//     value : "data"
+
+// },{
+//     status : "resolve || reject",
+//     value : "data"
+// }]
+// Promise.any --> When I have multiple promises, it is going to provide me the data of the first resolved promise
+// Promise.race --> When I have multiple promises, it is going to provide me the data of the first promise, either it has been resolved or rejected
+
+// -----------------------------------------------------------------------------------------------------------------------
